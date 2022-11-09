@@ -52,7 +52,7 @@ def known_word():
     txt = words_to_learn[i]
     words_to_learn.remove(txt)
     df = pandas.DataFrame(words_to_learn)
-    df.to_csv("words_to_learn.csv")
+    df.to_csv("data/words_to_learn.csv")
     generate_word()
 
 # ---------------------------- UI SECTION ------------------------------- #
